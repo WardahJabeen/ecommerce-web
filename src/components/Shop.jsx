@@ -55,14 +55,14 @@ const Shop = () => {
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 3,
-        autoplay: 1,
+        autoplay: true,
         autoplaySpeed: 2000,
         pauseOnHover: true,
         arrows: false,
         responsive: [
             {
                 breakpoint: 1023,
-                setting: {
+                settings: {
                     dots: true,
                     infinite: true,
                     slidesToShow: 3,
@@ -71,7 +71,7 @@ const Shop = () => {
             },
             {
                 breakpoint: 768,
-                setting: {
+                settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
                     initialSlide: 2
@@ -79,8 +79,8 @@ const Shop = () => {
                 }
             },
             {
-                breakpoint: 480,
-                setting: {
+                breakpoint: 512,
+                settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     initialSlide: 1

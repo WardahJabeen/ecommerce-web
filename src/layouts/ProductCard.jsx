@@ -23,8 +23,8 @@ const ProductCard = ({ id, img, name, price, discount }) => {
         <div className='h-[370px] 2xl:h-[420px] text-black rounded-xl shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] mb-2 cursor-pointer'
             key={id}>
 
-            <div>
-                <img src={img} alt="img" className='h-56 2xl:h-64 rounded-t-xl w-full' />
+            <div className='flex justify-center items-center'>
+                <img src={img} alt="img" className='h-56 2xl:h-64 rounded-t-xl w-64 2xl:w-full xl:w-full object-fill ' />
             </div>
             <div className='flex flex-col justify-center items-center'>
 
